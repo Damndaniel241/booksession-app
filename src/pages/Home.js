@@ -56,7 +56,7 @@ function Home() {
   
 
   useEffect(()=>{
-    axios.get("https://damndaniel241.pythonanywhere.com/")
+    axios.get("https://damndaniel241.pythonanywhere.com/getdepartment/")
     .then((response) => setDpt(response.data))
     .catch((err) => console.log(err))
   
