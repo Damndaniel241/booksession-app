@@ -16,7 +16,7 @@ function handleSubmit(e){
 
 //name="first_name" represents the fields you use to set it up in the backend
 
-  axios.post("http://localhost:8000/signup/", data)  //sends request to backend
+  axios.post("https://damndaniel241.pythonanywhere.com/signup/", data)  //sends request to backend
   .then((response)=>{ if (response.data === "signup successful"){
     alert("account created");
 
